@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/main-portfolio/static/css/main.8be03fcd.css",
+    "main.js": "/main-portfolio/static/js/main.5d241605.js",
+    "static/media/rickandmorty_foto.png": "/main-portfolio/static/media/rickandmorty_foto.8b2cc1e8077f84aae448.png",
+    "static/media/pizzeria_foto.png": "/main-portfolio/static/media/pizzeria_foto.e385552aeb57c13e5ceb.png",
+    "static/media/mediaplayer_foto.png": "/main-portfolio/static/media/mediaplayer_foto.abcf42ec21a017909a72.png",
+    "static/media/formvalidation_foto.png": "/main-portfolio/static/media/formvalidation_foto.98dcf9878b05780875ef.png",
+    "static/media/gradient-vermelho-bg.jpg": "/main-portfolio/static/media/gradient-vermelho-bg.dcccb1438dcdf3db48be.jpg",
+    "index.html": "/main-portfolio/index.html",
+    "main.8be03fcd.css.map": "/main-portfolio/static/css/main.8be03fcd.css.map",
+    "main.5d241605.js.map": "/main-portfolio/static/js/main.5d241605.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8be03fcd.css",
+    "static/js/main.5d241605.js"
+  ]
+}
