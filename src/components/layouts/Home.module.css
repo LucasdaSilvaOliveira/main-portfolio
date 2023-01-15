@@ -1,0 +1,76 @@
+.home_container {
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.home_container h1 {
+    color: white;
+    text-shadow: 1px 1px 3px #00000093;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.home_container span {
+    font-size: 37px;
+    background-color: red;
+    padding: 3px 6px;
+    transform: skew(-15deg);
+    display: inline-block;
+    border-radius: 2px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #0000008f;
+}
+
+.home_container p {
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px #00000093;
+}
+
+.favicon {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.favicon p:last-child  {
+    display: flex;
+    align-items: center;
+}
+
+.favicon p a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.favicon p a:hover {
+    color: #cccc82;
+}
+
+@media (max-width: 550px) {
+    .favicon {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 330px) {
+    .home_container h1 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .home_container span {
+        font-size: 25px;
+        padding: 0 2px;
+        transform: none;
+    }
+    .home_container p {
+        font-size: 16px;
+    }
+}

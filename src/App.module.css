@@ -1,0 +1,13 @@
+.div_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+@media (max-width: 855px) {
+    .div_container {
+        flex-direction: column-reverse;
+    }
+}

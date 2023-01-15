@@ -1,0 +1,13 @@
+.tittle {
+    color: red;
+    text-align: center;
+    font-size: 100px;
+    font-style: italic;
+    text-shadow: 5px 5px 10px #be52528f;
+}
+
+@media (max-width: 550px) {
+    .tittle {
+        font-size: 50px;
+    }
+}

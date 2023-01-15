@@ -1,0 +1,74 @@
+.container > a {
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+    padding: 3px 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.div_tittle {
+    color: white;
+    text-shadow: 2px 2px 3px #000000a2;
+    font-style: italic;
+    background-image: linear-gradient(to right, red, red, red, black);
+    transform: skew(-15deg);
+    padding: 3px 10px;
+}
+
+.menu_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.menu_container a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    transform: skew(-15deg);
+    transition: all 150ms ease-in-out;
+    position: relative;
+}
+
+.menu_container a::after {
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: #e04e4e;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 200ms ease-in-out;
+}
+
+.menu_container a:hover::after {
+    width: 100%;
+}
+
+@media (max-width: 855px) {
+    .container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .div_tittle {
+        transform: none;
+        background-image: linear-gradient(to right, red, red);
+    }
+    .menu_container a {
+        width: fit-content;
+        margin: auto;
+        transform: none;
+    }
+    .menu_container a::after {
+        left: 50%;
+        right: 50%;
+    }
+    .menu_container a:hover::after {
+        left: 0%;
+        right: 0%;
+    }
+}

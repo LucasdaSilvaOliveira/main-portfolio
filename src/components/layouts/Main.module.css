@@ -1,0 +1,84 @@
+.main_container {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    border: 10px double #790606;
+    background-image: url(../img/gradient-vermelho-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.container p {
+    color: white;
+    font-size: 25px;
+    text-shadow: 1px 1px 3px #00000093;
+}
+
+.container p a {
+    color: #cc0d0d;
+}
+
+.info_container {
+    display: flex;
+    gap: 20px;
+}
+
+.info_container ul li {
+    color: white;
+    font-size: 20px;
+    list-style-type: circle;
+    margin-top: 15px;
+    text-shadow: 1px 1px 3px #00000093;
+}
+
+@media (max-width: 855px) {
+    .main_container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1120px) {
+    .info_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info_container ul {
+        display: flex;
+        gap: 10px;
+        padding-left: 0px;
+    }
+
+    .info_container ul li {
+        list-style-type: none;
+        border-left: 3px solid #b63434;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 550px) {
+    .main_container {
+        padding: 10px;
+    }
+
+    .container>p {
+        font-size: 20px;
+    }
+
+    .info_container ul {
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+
+    .info_container ul li {
+        font-size: 16px;
+    }
+}
